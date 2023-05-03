@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Intelligent Query Resolver</string>
+    <string name="questionContentDesc">Got a query?</string>
+    <string name="whatDoYouWantToDoToday">What Do You Want To Do Today?</string>
+    <string name="messageHint">Write Here</string>
+    <string name="welcomeText">Welcome</string>
+    <string name="contentDescription">Generated Image</string>
+    <string name="generate">Generate</string>
+    <string name="send">Send Button</string>
+    <string name="mic">Mic</string>
+</resources>

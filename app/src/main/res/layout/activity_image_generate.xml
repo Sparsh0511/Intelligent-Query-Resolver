@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ImageGenerate"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/back3">
+
+    <EditText
+        android:id="@+id/promptEdtText"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="20dp"
+        android:autofillHints=""
+        android:ems="12"
+        android:fontFamily="@font/robotomediumitalic"
+        android:hint="@string/messageHint"
+        android:inputType="text"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:background="@drawable/round_corner_2"
+        />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="361dp"
+        android:layout_height="361dp"
+        android:elevation="80dp"
+        app:cardCornerRadius="20dp"
+        >
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#7B7BC3"
+            android:src="@drawable/ic_launcher_foreground"
+            android:contentDescription="@string/contentDescription"
+            />
+
+
+    </androidx.cardview.widget.CardView>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/generate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/generate"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:fontFamily="@font/robotoregular"
+        android:background="@drawable/round_corner_3"
+        />
+
+</LinearLayout>
+
+
